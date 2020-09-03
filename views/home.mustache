@@ -11,12 +11,12 @@
       	<div class="overlay"></div>
         <div class="container-fluid p-0">
           <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
-          	<div class="one-third order-md-last img js-fullheight" style="background-image:url(images/bg_3.jpg);">
+          	<div class="one-third order-md-last img js-fullheight" style="background-image:url({{{page.slide1.img_background}}}=s2048);">
           		<div class="overlay"></div>
           	</div>
 	          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 	          	<div class="text mt-md-5">
-		            <h1 class="mb-4">{{page.slide1.header}}</h1>
+		            <h1 class="mb-4">{{page.slide1.header1}}<br>{{page.slide1.header2}}</h1>
 		            <p>{{page.slide1.subtext}}</p>
 	            </div>
 	          </div>
@@ -28,7 +28,7 @@
       	<div class="overlay"></div>
         <div class="container-fluid p-0">
           <div class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
-          	<div class="one-third order-md-last img js-fullheight" style="background-image:url(images/bg_2.jpg);">
+          	<div class="one-third order-md-last img js-fullheight" style="background-image:url({{{page.slide2.img_background}}}=s2048);">
           		<div class="overlay"></div>
           	</div>
 	          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -46,29 +46,29 @@
 		<section class="ftco-section ftco-wrap-about ftco-no-pb ftco-no-pt">
 			<div class="container">
 				<div class="row no-gutters">
-					<div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" style="background-image: url(images/about.jpg); position: relative"></div>
+					<div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" style="background-image: url({{{page.about.main-img}}}=s2048); position: relative"></div>
 					<div class="col-sm-7 wrap-about py-5 ftco-animate">
 	          <div class="heading-section mt-5 mb-4">
 	          	<div class="pl-lg-5 ml-md-5">
 		          	<span class="subheading">About</span>
-		            <h2 class="mb-4">Welcome to Kusina Restaurant</h2>
+		            <h2 class="mb-4">{{page.about.header}}</h2>
 	            </div>
 	          </div>
 	          <div class="pl-lg-5 ml-md-5">
-							<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-							<h3 class="mt-5">Special Recipe</h3>
+							<p>{{page.about.text}}</p>
+							<h3 class="mt-5">{{page.about.favorites.text}}</h3>
 							<div class="thumb my-4 d-flex">
-	            	<a href="#" class="thumb-menu pr-md-4 text-center">
-	            		<div class="img" style="background-image: url(images/lunch-4.jpg);"></div>
-	            		<h4>Australian Organic Beef</h4>
+	            	<a href="menu" class="thumb-menu pr-md-4 text-center">
+	            		<div class="img" style="background-image: url({{{page.about.favorites.first.img_icon}}});"></div>
+	            		<h4>{{page.about.favorites.first.caption}}</h4>
 	            	</a>
-	            	<a href="#" class="thumb-menu pr-md-4 text-center">
-	            		<div class="img" style="background-image: url(images/lunch-7.jpg);"></div>
-	            		<h4>Australian Organic Beef</h4>
+	            	<a href="menu" class="thumb-menu pr-md-4 text-center">
+	            		<div class="img" style="background-image: url({{{page.about.favorites.second.img_icon}}});"></div>
+	            		<h4>{{page.about.favorites.second.caption}}</h4>
 	            	</a>
-	            	<a href="#" class="thumb-menu pr-md-4 text-center">
-	            		<div class="img" style="background-image: url(images/lunch-6.jpg);"></div>
-	            		<h4>Australian Organic Beef</h4>
+	            	<a href="menu" class="thumb-menu pr-md-4 text-center">
+	            		<div class="img" style="background-image: url({{{page.about.favorites.third.img_icon}}});"></div>
+	            		<h4>{{page.about.favorites.third.caption}}</h4>
 	            	</a>
 	            </div>
 						</div>
@@ -77,7 +77,7 @@
 			</div>
 		</section>
 
-		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_4.jpg);" data-stellar-background-ratio="0.5">
+		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{{page.experience.img_background}}});" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row d-md-flex align-items-center justify-content-center">
     			<div class="col-lg-10">
@@ -85,32 +85,32 @@
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="18">0</strong>
-		                <span>Years of Experienced</span>
+		                <strong class="number" data-number="{{page.experience.years.value}}">0</strong>
+		                <span>{{page.experience.years.caption}}</span>
 		              </div>
 		            </div>
 		          </div>
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="20000">0</strong>
-		                <span>Happy Customers</span>
+		                <strong class="number" data-number="{{page.experience.reviews.value}}">0</strong>
+		                <span>{{page.experience.reviews.caption}}</span>
 		              </div>
 		            </div>
 		          </div>
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="564">0</strong>
-		                <span>Finished Projects</span>
+		                <strong class="number" data-number="{{page.experience.rank.value}}">0</strong>
+		                <span>{{page.experience.rank.caption}}</span>
 		              </div>
 		            </div>
 		          </div>
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="300">0</strong>
-		                <span>Working Days</span>
+		                <strong class="number" data-number="{{page.experience.delivery.value}}">0</strong>
+		                <span>{{page.experience.delivery.caption}}</span>
 		              </div>
 		            </div>
 		          </div>
@@ -125,27 +125,26 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Specialties</span>
-            <h2 class="mb-4">Our Menu</h2>
+          	<span class="subheading">{{page.specialties.title}}</span>
+            <h2 class="mb-4">{{page.specialties.subtitle}}</h2>
           </div>
         </div>
         <div class="row">
         	<div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
-        			<h3>Breakfast</h3>
+        			<h3>{{page.specialties.breakfast.title}}</h3>
         		</div>
         		<div class="menus d-flex ftco-animate">
               <div class="menu-img img" style="background-image: url(images/breakfast-1.jpg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
+	                  <h3>{{page.specialties.breakfast.breakfast1.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.breakfast.breakfast1.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -153,13 +152,12 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>{{page.specialties.breakfast.breakfast2.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.breakfast.breakfast2.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -167,13 +165,12 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>{{page.specialties.breakfast.breakfast3.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.breakfast.breakfast3.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
         	</div>
@@ -187,13 +184,12 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
+	                  <h3>{{page.specialties.lunch.lunch1.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.lunch.lunch1.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -201,13 +197,12 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>{{page.specialties.lunch.lunch2.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.lunch.lunch2.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -215,33 +210,31 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>{{page.specialties.lunch.lunch3.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.lunch.lunch3.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
         	</div>
 
         	<div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
-        			<h3>Dinner</h3>
+        			<h3>{{page.specialties.salads.title}}</h3>
         		</div>
         		<div class="menus d-flex ftco-animate">
               <div class="menu-img img" style="background-image: url(images/dinner-1.jpg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
+	                  <h3>{{page.specialties.salads.salads1.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.salads.salads1.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -249,13 +242,12 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>{{page.specialties.salads.salads2.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.salads.salads2.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -263,13 +255,12 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>{{page.specialties.salads.salads3.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.salads.salads3.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
         	</div>
@@ -277,20 +268,19 @@
         	<!--  -->
         	<div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
-        			<h3>Desserts</h3>
+        			<h3>{{page.specialties.sides.title}}</h3>
         		</div>
         		<div class="menus d-flex ftco-animate">
               <div class="menu-img img" style="background-image: url(images/dessert-1.jpg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
+	                  <h3>{{page.specialties.sides.sides1.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.sides.sides1.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -298,13 +288,12 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>{{page.specialties.sides.sides2.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.sides.sides2.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -312,13 +301,12 @@
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>{{page.specialties.sides.sides3.caption}}</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">{{page.specialties.sides.sides3.price}}</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
         	</div>
@@ -338,7 +326,6 @@
 	                  <span class="price">$29</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -352,7 +339,6 @@
 	                  <span class="price">$29</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -366,7 +352,6 @@
 	                  <span class="price">$29</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
         	</div>
@@ -386,7 +371,6 @@
 	                  <span class="price">$29</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -400,7 +384,6 @@
 	                  <span class="price">$29</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
@@ -414,7 +397,6 @@
 	                  <span class="price">$29</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
               </div>
             </div>
         	</div>
@@ -510,7 +492,7 @@
       </div>
     </section>
 			
-
+{{! 
 		<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container">
 				<div class="row d-flex">
@@ -577,7 +559,7 @@
           </div>
         </div>
 			</div>
-		</section>
+		</section> }}
   
     {{>footer}}
 

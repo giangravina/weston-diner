@@ -1,10 +1,63 @@
 {
     "slide1": {
-        "header": "Welcome to Weston Diner",
-        "subtext": "Fresh Food Prepared Daily"
+        "header1": "Welcome to",
+        "header2": "Weston Diner",
+        "subtext": "Fresh Food Prepared Daily",
+        "img_background": "https://lh3.googleusercontent.com/KzTp4bQoqbCIqyAKdhxkJLO8EKIXjs1KOEUpXRIp_-OvQuvbZcO8T-KfK5PWwLazY_4sxPsh82jsR9eiIjz9ayjstg"
     },
     "slide2": {
         "header": "Experience Traditional American Dining",
-        "subtext": "Coffee, Burgers, Salads, We Have it All!"
+        "subtext": "Coffee, Burgers, Salads, We Have it All!",
+        "img_background": "https://lh3.googleusercontent.com/_P6RuN3D7xT6TmKzqB9_SSmpwvzOu6LoUkT74AEfMLKQM_eOWn7YSvQ0ZsdtNFdlEJYWrV5Xl3tXEzVZQemh8AhaQg"
+    },
+    "about": {
+        "header": "Welcome to Gourmet American Style Dining",
+        "text": "Comfortable, family-friendly diner for hearty breakfast fare, sandwiches, pasta & coffee.",
+        "main-img": "https://lh3.googleusercontent.com/bB0VfUToF2D-HO6_YQCw0RzK25TFDFWgb_gSBGV0ttgZ1dLpP_dP0vYY72RbWVuV-fTtYGXlfUZWeOxofaxsDLYMBA",
+        "favorites": {
+            "text": "Local Favorites",
+            "first": {"caption":"Banana Nut Pancakes", "img_icon": "https://lh3.googleusercontent.com/KBX6Ot6XgOjAdlc1XiVUE2MM0v0mF-mNcR8jxahr1dg5EnBy_Swlb1tis4LtsK_JozsXBfc6GWgD5kWKVFch6bULWW0=s320-c"},
+            "second": {"caption":"Chicken Fried Steak", "img_icon": "https://lh3.googleusercontent.com/9jtnPOgBUOTjKPks_rIRpsoXR3G9GY4ZIHf9fuIw6aZHzlkNaoQD7wql20UynCQQWV9jnx4P4vMwy1GWOmDyWnuMDWY=s320-c"},
+            "third": {"caption":"Seafood Pasta", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"}
+        }      
+    },
+    "experience": {
+        "years": {"caption": "Years of Experience", "value": "15"},
+        "reviews": {"caption": "Google Reviews", "value": "562"},
+        "rank": {"caption": "# Ranked in Weston", "value": "23"},
+        "delivery": {"caption": "Forms of Delivery", "value": "3"},
+        "img_background": "https://lh3.googleusercontent.com/oEqDp7CSrdHSe_veiUsDc4l6r-k150ry_vwjeYX_pPqOE6NKIoOJ5gU0P6xlmTh2j3UDVHOpHIA5hKnudo2oZK1GgQ"
+    },
+    "specialties": {
+        "title": "Specialties",
+        "subtitle": "Our Menu",
+        "breakfast": {
+            "title": "Breakfast",
+            "breakfast1": {"caption": "Country Fried Steak", "price": "$7.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"},
+            "breakfast2": {"caption": "The Mess", "price": "$6.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"},
+            "breakfast3": {"caption": "Steak & Eggs", "price": "$11.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"}
+        },
+        "lunch": {
+            "title": "Lunch",
+            "lunch1": {"caption": "Chicken Wings", "price": "$7.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"},
+            "lunch2": {"caption": "Philly Cheese Steak Sandwich", "price": "$8.49", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"},
+            "lunch3": {"caption": "1/2 lb. Cheeseburger", "price": "$11.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"}
+        },
+        "salads": {
+            "title": "Salads",
+            "salads1": {"caption": "Ceasar Salad", "price": "$6.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"},
+            "salads2": {"caption": "Cobb Salad", "price": "$8.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"},
+            "salads3": {"caption": "Blackened Salmon", "price": "$9.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"}
+        },
+        "sides": {
+            "title": "Sides",
+            "sides1": {"caption": "French Fries", "price": "$2.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"},
+            "sides2": {"caption": "Side House Salad", "price": "$2.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"},
+            "sides3": {"caption": "6 Sweet Plantains", "price": "$1.99", "img_icon": "https://lh3.googleusercontent.com/zohszDmLTn1qBtqzFTXaS2PqkxLrsrm_Q_DtCruGisO9bcxjqiFjBQqt7KD7CiVqnSGFyeoqJhfbzsxx5NRUe7F8QQ=s320-c"}
+        }
     }
+
+
 }
+
+
